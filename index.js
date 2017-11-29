@@ -6,7 +6,7 @@ const check = require('./app/check');
 
 program
     .version(package.version)
-    .command('*')
+    .command('* <path> [rate]')
     .description('选择要检查的图片或路径')
     .action(check);
 
