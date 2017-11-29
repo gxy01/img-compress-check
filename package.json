@@ -1,14 +1,14 @@
 {
-  "name": "img-compress-check",
-  "version": "1.0.0",
-  "description": "",
+  "name": "img-compression-check",
+  "version": "0.1.0",
+  "description": "Check image is compressed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "img",
-    "compress",
+    "compression",
     "pngquant"
   ],
   "author": "",
