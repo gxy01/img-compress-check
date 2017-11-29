@@ -7,6 +7,7 @@ const fsReaddir = promisify(fs.readdir);
 
 const compressImg = require('./copmressImg.js');
 
+const saveResult = require('./saveResult');
 const blackList = ['node_modules'];
 
 async function check(inputPath, rate = 0.5) {
@@ -24,6 +25,8 @@ async function check(inputPath, rate = 0.5) {
     const filterArr = result.filter(img => img.rate < Number(rate));
     console.log('共', filterArr.length, '张图片可能是未压缩');
     console.log(filterArr);
+
+    saveResult(result, rate);
     return result;
 }
 

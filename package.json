@@ -1,6 +1,6 @@
 {
   "name": "img-compression-check",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Check image is compressed.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "commander": "^2.11.0",
     "imagemin": "^5.3.1",
     "imagemin-jpegtran": "^5.0.2",
-    "imagemin-pngquant": "^5.0.1"
+    "imagemin-pngquant": "^5.0.1",
+    "prompt": "^1.0.0"
   },
   "bin": {
     "cic": "./bin/cic.js"
