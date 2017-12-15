@@ -24,5 +24,5 @@ npm i img-compression-check -g
 ## 使用
 
 ```bash
-cic <image path> [rate]
+icc <image path> [rate]
 ```
